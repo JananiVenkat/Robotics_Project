@@ -11,7 +11,8 @@ body
 }
 .search-align
 {
-	margin: 1px;
+	padding: 5px;
+	margin-right: 3px;
 }
 /*modal part*/
 .modal-align
