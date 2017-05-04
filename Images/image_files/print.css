@@ -1,0 +1,46 @@
+.noprint,
+.gform_page_footer,
+.page-title,
+.gform_anchor,
+.quote-form .gfield,
+.quote-form .validation_error,
+.l-container h1,
+.button,
+#footer,
+#nav {
+	display: none;
+}
+
+#header {
+    margin: 0;
+}
+
+.logo {
+    height: 70px;
+    width: 125px;
+}
+
+.blog {
+    padding: 0;
+}
+
+.print-only {
+	display: block;
+    font-size: 12px;
+}
+
+.quote-form .confirmation-page .product-field.total {
+	min-height: 0;
+}
+
+.quote-form .gfield.product-field {
+	display: block;
+}
+
+.salesquote {
+    text-align: right;
+}
+
+.print-notes {
+    font-size: 12px;
+}

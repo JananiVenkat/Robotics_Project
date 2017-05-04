@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Robot Shop</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial scale=1.0"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+<script src="mediaelement-and-player.min.js"></script>
+
+
+<script>
+    var player = new MediaElementPlayer('#player1');
+</script>
+</head>
+<body>
+	<header>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  		<div class="container">
+    		<div class="navbar-header">      				 	
+      			<button type="button" class="navbar-toggle" aria-expanded="false" data-toggle="collapse" data-target="#myNavbar">
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>                        
+      				</button><!--end button-->
+
+      			<h3 class="header-size col-md-2"><img src="Images/robot.png" alt="Robot logo"/>
+      				 ClickRobot</h3> 
+      		</div><!--end navbar-head-->		    		
+    		<div class="navbar-align collapse navbar-collapse" id="myNavbar">
+    			<ul class="col-md-6 nav navbar-nav navbar-right">
+
+    				<li class="active">
+    					<a href="#">Home</a>						
+    				</li><!--end home-->
+    				<li class="dropdown">
+    					<a href="#" class="list-color dropdown-toggle" data-toggle="dropdown">Products<strong class="caret">					
+    					</strong></a>
+    					<ul class="dropdown-menu">
+    						<li>
+    							<a href="#">Dexterous hand</a>
+    						</li>
+    						<li>
+    							<a href="#">Hand Life</a>
+    						</li>
+    						<li>
+    							<a href="#">Air Muscles</a>
+    						</li>
+    						<li>
+    							<a href="#">Smart Grasping System</a>
+    						</li>
+    						<li>
+    							<a href="#">Teleoperation Development System</a>
+    						</li>								
+    					</ul><!--end dropdown-menu-->
+    				</li><!--end dropdown list-->
+					<li class="dropdown">
+						<a href="#" class="list-color dropdown-toggle" data-toggle="dropdown">Industries<strong class="caret"></strong></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">Food and Agriculture</a>
+							</li>
+							<li>
+								<a href="#">Automotive and Subcontractors</a>
+							</li>
+							<li>
+								<a href="#">Furniture and Equipment</a>
+							</li>
+							<li>
+								<a href="#">Plastic and Polymers</a>
+							</li>
+							<li>
+								<a href="#">Scientific and Research</a>
+							</li>
+						</ul><!--end dropdown-menu-->
+					</li>	<!--end dropdown list-->					
+					<li class="dropdown">
+						<a href="#" class="list-color dropdown-toggle" data-toggle="dropdown">Application
+						<strong class="caret"></strong></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">Molding Operation</a>
+							</li>
+							<li>
+								<a href="#">Loading and Unloading</a>
+							</li>
+							<li>
+								<a href="#">Packaging</a>
+							</li>
+							<li>
+								<a href="#">Metal Fabrication</a>
+							</li>
+							<li>
+								<a href="#">Test and Inspection</a>
+							</li>
+							</ul>	<!--end dropdown menu-->							
+					</li><!--end dropdown list-->
+					<li>						
+						<a href="#myModal" role="button" class="btn btn-default" data-toggle="modal">
+							<span class="glyphicon glyphicon-search"></span>
+						</a>								
+					</li><!--end modal list-->
+
+					<li class="dropdown">						
+						<a href="#" role="button" class="btn btn-info" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-lock"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-filter"></span>Orders</a>
+							</li>
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-asterisk"></span>Account</a>
+							</li>
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-user"></span>Sign in</a>
+							</li>
+						</ul><!--end dropdown menu-->
+					</li><!--end dropdown list-->
+				</ul><!--end nav ul-->
+			</div><!--end nav collapse-->			
+		</div><!--end container-->
+	</nav><!--end nav-->
+	</header><!--end header-->
+	<section class="container">
+		<div class="video-align">
+			<h2>Nao Robot</h2>
+			 <iframe src="https://www.youtube.com/embed/hp8fGKA60ic"></iframe> 
+  		</div><!--end video section-->
+	</section><!--end container-->
+	<div class="container cont-align">
+		<section class="application-align row">
+			<h3 class="text">Applications</h3>
+			<figure class="col-sm-4">
+				<img src="Images/Material-Handling.png" alt=" Aww!!" />
+				<figcaption>Material-Handling</figcaption>
+			</figure>	
+			
+			<figure class="col-sm-4">
+				<img src="Images/kitting.png" alt=" "/>
+				<figcaption>kitting</figcaption>
+			</figure>
+			
+			<figure class="col-sm-4">
+				<img src="Images/loading.png" alt=" "/>
+				<figcaption>loading</figcaption>
+			</figure>
+			
+			<figure class="col-sm-4">
+				<img src="Images/packaging.png" alt=" "/>
+				<figcaption>packaging</figcaption>
+			</figure>
+			
+			<figure class="col-sm-4">
+				<img src="Images/machine_tending.png" alt=" "/>
+				<figcaption>Machine tending</figcaption>
+			</figure>		
+		</section><!--end application-->
+	</div><!--end container-->
+	<div class="container">
+		<div class="application-align row">
+			<h3 class="text">Human Robot</h3>
+			<div class="col-md-6">
+				<div class="animate">
+					<img src="Images/hoverslide.jpg" alt="Human Robot" class="hover-img-align"/>
+					<div class="overlay">
+					    <div class="over-text">
+						    <p>Albert Einstein</p>
+					    </div><!--end text-->
+					</div><!--end overlay--> 
+				</div><!--end animate-->
+			</div><!--end col-md-6-->
+		
+			<div class="col-md-6">
+				<div class="animate">
+					<img src="Images/hoverslide2.jpg" alt="Human Robot" class="hover-img-align"/>
+					<div class="overlay">
+					    <div class="over-text">
+						    <p>Zeno</p>
+					    </div><!--end text-->
+					</div><!--end overlay--> 
+				</div><!--end animate-->
+			</div><!--end col-md-6-->		
+		</div><!--end row-->		
+	</div><!--end container-->
+	<div class="container cont-align">
+		<div class="row" id="moreCourses">
+			<div class="col-md-12">
+				<h3 class="text">More About Robot</h3>
+				<div class="thumbnails row ">
+					<div class=col-md-6>
+						<div class="thumbnail">
+							<img src="Images/slide5.jpg" alt=" " id="thumb-align"/>
+							<div class="caption caption-align">
+								<p>The world’s first dual arm collaborative robot, Baxter is simple to train for repetitive production tasks such as discrete part handling, line loading, packing and unpacking, and many more applications.</p>	
+								<button type="button" class="btn btn-info">Learn more</button>		
+							</div><!--end caption-->
+				
+						</div><!--end thumbnail-->
+					</div><!--end col-md-6-->
+					<div class=col-md-6>
+						<div class="thumbnail">
+							<img src="Images/robotic.jpg" alt=" " id="thumb1-align"/>
+							<div class="caption caption-align">
+								<p>Sophia,human-like robot has shown her potential in business, having met face-to-face with key decision makers across industries including banking, insurance,etc.</p>
+								<button type="button" class="btn btn-info">Learn more</button>				
+							</div><!--end caption-->
+				
+						</div><!--end thumbnail-->
+					</div><!--end col-md-6-->
+				</div><!--end thumbnails row-->
+				
+			</div><!--col-md-12-->
+		</div><!--row-->
+	</div><!--end container-->
+
+	<div class="container">
+		<ul class="pager">		
+			<li class="previous"><a href="index.html"><span class="glyphicon glyphicon-chevron-left"></span>Previous</a></li>	
+			<li class="next disabled"><a href="index1.html">Next<span class="glyphicon glyphicon-chevron-right"></span></a>
+			</li>	
+		</ul><!--end pager-->
+	</div>	<!--end container-->
+	<footer>
+		<div class="container">
+			<div class="row">			
+				<section class="col-md-3">			
+					<ul class="list-decoration">
+						<li><h4>Quick Links</h4></li>
+						<li>Home</li>
+						<li>About Us</li>
+						<li>Educational Institution</li>
+					</ul>
+				</section>
+				<section class="col-md-3">			
+					<ul class="list-decoration">
+						<li><h4>Robotic Courses</h4></li>
+						<li>Basic courses</li>
+						<li>Advanced Version</li>
+						<li>About courses</li>
+					</ul>
+				</section>
+				<section class="col-md-3">			
+					<ul class="list-decoration">
+						<li><h4>Automation Courses</h4></li>
+						<li>Basic PLC Training</li>
+						<li>Advanced PLC</li>
+						<li>SCADA Training</li>
+					</ul>
+				</section>
+			</div><!--end row-->
+			<div class="row">
+				<div class="col-md-6">
+					<p>copyright &copy; clickrobot.com. All rights reserved</p>		
+				</div><!--end col-md-6-->
+					
+				<div class="col-md-6">
+					<img src="Images/facebook.png" alt="Facebook icon"/>
+					<img src="Images/twitter.png" alt="twitter icon"/>
+					<img src="Images/google-plus.png" alt="google-plus icon"/>
+					<img src="Images/linkedin.png" alt="linkedin icon"/>		
+				</div><!--end col-md-6-->
+			</div><!--end row-->
+		</div><!--end container-->
+	</footer><!--end footer-->
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;		
+					</button>
+				</div><!--end modal-header-->
+				<div class="modal-body">
+					<input type="text" class="modal-align" placeholder="Search robot"/>
+					<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+				</div><!--end modal-body-->										
+			</div><!--end modal-content-->
+		</div><!--end modal-dialog-->
+	</div><!--end modal-->	
+</body>
+</html>

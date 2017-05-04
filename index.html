@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Robot Shop</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial scale=1.0"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="js/script.js"/>
+</head>
+<body>	
+	<header>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  		<div class="container">
+    		<div class="navbar-header">      				 	
+      			<button type="button" class="navbar-toggle" aria-expanded="false" data-toggle="collapse" 
+      			data-target="#myNavbar">
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>                        
+      				</button><!--end button-->
+
+      			<h3 class="header-size col-md-2"><img src="Images/robot.png" alt="Robot logo"/>
+      				 ClickRobot</h3> 
+      		</div><!--end navbar-head-->		    		
+    		<div class="navbar-align collapse navbar-collapse" id="myNavbar">
+    			<ul class="col-md-6 nav navbar-nav navbar-right">
+
+    				<li class="active">
+    					<a href="#">Home</a>						
+    				</li><!--end home-->
+    				<li class="dropdown">
+    					<a href="#" class="list-color dropdown-toggle" data-toggle="dropdown">Products<strong class="caret">					
+    					</strong></a>
+    					<ul class="dropdown-menu">
+    						<li>
+    							<a href="#">Dexterous hand</a>
+    						</li>
+    						<li>
+    							<a href="#">Hand Life</a>
+    						</li>
+    						<li>
+    							<a href="#">Air Muscles</a>
+    						</li>
+    						<li>
+    							<a href="#">Smart Grasping System</a>
+    						</li>
+    						<li>
+    							<a href="#">Teleoperation Development System</a>
+    						</li>								
+    					</ul><!--end dropdown-menu-->
+    				</li><!--end dropdown list-->
+					<li class="dropdown">
+						<a href="#" class="list-color dropdown-toggle" data-toggle="dropdown">Industries<strong class="caret"></strong></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">Food and Agriculture</a>
+							</li>
+							<li>
+								<a href="#">Automotive and Subcontractors</a>
+							</li>
+							<li>
+								<a href="#">Furniture and Equipment</a>
+							</li>
+							<li>
+								<a href="#">Plastic and Polymers</a>
+							</li>
+							<li>
+								<a href="#">Scientific and Research</a>
+							</li>
+						</ul><!--end dropdown-menu-->
+					</li>	<!--end dropdown list-->					
+					<li class="dropdown">
+						<a href="#" class="list-color dropdown-toggle" data-toggle="dropdown">Application
+						<strong class="caret"></strong></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">Molding Operation</a>
+							</li>
+							<li>
+								<a href="#">Loading and Unloading</a>
+							</li>
+							<li>
+								<a href="#">Packaging</a>
+							</li>
+							<li>
+								<a href="#">Metal Fabrication</a>
+							</li>
+							<li>
+								<a href="#">Test and Inspection</a>
+							</li>
+							</ul>	<!--end dropdown menu-->							
+					</li><!--end dropdown list-->
+					<li>						
+						<a href="#myModal" role="button" class="btn btn-default" data-toggle="modal">
+							<span class="glyphicon glyphicon-search"></span>
+						</a>								
+					</li><!--end modal list-->
+
+					<li class="dropdown">						
+						<a href="#" role="button" class="btn btn-info" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-lock"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-filter"></span>Orders</a>
+							</li>
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-asterisk"></span>Account</a>
+							</li>
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-user"></span>Sign in</a>
+							</li>
+						</ul><!--end dropdown menu-->
+					</li><!--end dropdown list-->
+				</ul><!--end nav ul-->
+			</div><!--end nav collapse-->			
+		</div><!--end container-->
+	</nav><!--end nav-->
+	</header><!--end header-->
+
+   	<div class="container slide-align">     
+   		<div class="carousel slide carousel-align" id="myCarousel" data-ride="carousel">
+   			<!--indicators-->
+   			<ol class="carousel-indicators">
+   				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+   				<li data-slide-to="1" data-target="#myCarousel"></li>
+   				<li data-slide-to="2" data-target="#myCarousel"></li>
+   			</ol><!--end orderedlist-->
+   			<!-- Wrapper for slides -->
+   			<div class="carousel-inner">
+   				<div class="item active" id="slide1">
+   					<img class="img-responsive" src="Images/slide1.jpg" alt="Sawyer robot">
+   				</div>
+   				<div class="item" id="slide2">
+   					<img class="img-responsive" src="Images/slide2.jpg" alt="Baxter robot">
+   				</div>
+   				<div class="item" id="slide3">
+   					<img class="img-responsive" src="Images/slide3.jpg" alt="Sawyer robot">
+   				</div>
+   			</div><!--end carousel-inner-->
+   			<!--controls-->
+   			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+   			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+   		</div><!--end carousel-slide-->
+	</div><!--end container-->
+
+	<div class="container">
+		<section class="align-article">
+			<h2>High Performance Robot</h2>
+			<div class="col-sm-6">
+				<img src="Images/robot1.jpg" alt="robot-image" id="subslide1-align"/>
+			</div>
+			<div class="col-sm-6">
+				<img src="Images/robot2.jpg" alt="robot-image" id="subslide2-align"/>
+			</div>
+		</section><!--end article section-->
+
+		<section class="col-md-6">
+			<div class="sub-article-align">
+				<h2>Training and Support</h2>
+				<p>	Collaborative robots, while amazing, do not deploy themselves. Our global Customer Experience Team is ready to get you started and dedicated to your success.</p>
+			</div>
+			<div class="sub-article-align">
+				<h2>Force Sensing</h2>
+				<p>	With Sawyer’s built in force sensing, you can control force for applications where delicate part insertion is critical, or use force feedback in tasks to verify that parts have been seated properly.</p>
+			</div>
+			<div class="sub-article-align">			
+				<h2>Internationally Available</h2>
+				<p>Sawyer was built from the ground up to meet the needs of the global manufacturing marketplace. It is available through our Channel Partners worldwide.</p>
+			</div>			
+		</section><!--end col-md-6 section-->	
+		<section class="col-md-6">
+		<div class="sub-article-align">
+			<h2>Unique Characters Of Robot</h2>
+			<p>Our robots come to life as animated characters, with endearing personalities that interact with people in their own unique ways and attracting million of viewers.</p>		
+		</div>
+		<div class="sub-article-align">
+			<h2>Empathic AI</h2>
+			<p>Our advanced AI software empower our robots to understand speech, hold natural conversations, see and respond to facial expressions, learn and adapt from those interactions.</p>
+		</div>
+		<div class="sub-article-align">
+			<h2>Uncanny Realism</h2>
+			<p>	Our robots are endowed with remarkable expressiveness and interactivity, with the ability to simulate a full range of facial expressions so they can engage with people deeply.</p>
+		</div>
+			
+		</section>	<!--end col-md-6 second section-->
+	</div><!--end container-->
+	<aside>
+		<div class="container">
+			<h2>Free Hands-On Training Program for Engineers</h2>
+			<h5>Pre Registration Required</h5>
+			<button type="button" class="btn btn-primary btn-align">Registration online		
+			</button>
+			<p>Furthur Details Call : 8754624807</p>
+		</div><!--end container-->
+	</aside><!--end aside-->
+
+	<section class="contact">
+		<h4>The Future Begins Now</h4>
+		<h6>Learn more</h6>
+		<p>Be in touch with click robot channel in your area</p>
+		<button type="button" class="alert alert-info alert-block">Contact Us<span class="glyphicon glyphicon-chevron-right"></span></button>
+	</section>	<!--end contact section-->
+
+	<div class="container">
+		<ul class="pager">		
+			<li class="previous disabled"><a href="index.html"><span class="glyphicon glyphicon-chevron-left"></span>Previous</a></li>	
+			<li class="next"><a href="index1.html">Next<span class="glyphicon glyphicon-chevron-right"></span></a>
+			</li>	
+		</ul><!--end pager-->
+	</div>	<!--end container-->
+	<footer>
+		<div class="container">
+			<div class="row">			
+				<section class="col-md-3">			
+					<ul class="list-decoration">
+						<li><h4>Quick Links</h4></li>
+						<li>Home</li>
+						<li>About Us</li>
+						<li>Educational Institution</li>
+					</ul>
+				</section>
+				<section class="col-md-3">			
+					<ul class="list-decoration">
+						<li><h4>Robotic Courses</h4></li>
+						<li>Basic courses</li>
+						<li>Advanced Version</li>
+						<li>About courses</li>
+					</ul>
+				</section>
+				<section class="col-md-3">			
+					<ul class="list-decoration">
+						<li><h4>Automation Courses</h4></li>
+						<li>Basic PLC Training</li>
+						<li>Advanced PLC</li>
+						<li>SCADA Training</li>
+					</ul>
+				</section>
+			</div><!--end row-->
+			<div class="row">
+				<div class="col-md-6">
+					<p>copyright &copy; clickrobot.com. All rights reserved</p>		
+				</div><!--end col-md-6-->
+					
+				<div class="col-md-6">
+					<img src="Images/facebook.png" alt="Facebook icon"/>
+					<img src="Images/twitter.png" alt="twitter icon"/>
+					<img src="Images/google-plus.png" alt="google-plus icon"/>
+					<img src="Images/linkedin.png" alt="linkedin icon"/>		
+				</div><!--end col-md-6-->
+			</div><!--end row-->
+		</div><!--end container-->
+	</footer><!--end footer-->
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;		
+					</button>
+				</div><!--end modal-header-->
+				<div class="modal-body">
+					<input type="text" class="modal-align" placeholder="Search robot"/>
+					<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+				</div><!--end modal-body-->										
+			</div><!--end modal-content-->
+		</div><!--end modal-dialog-->
+	</div><!--end modal-->	
+</body>
+</html>
