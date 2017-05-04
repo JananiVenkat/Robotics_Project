@@ -9,6 +9,11 @@ body
 	color:white;
 	padding-left: 60px;	
 }
+#icon-align
+{
+	padding: 10px;
+	margin: 5px;
+}
 /*modal part*/
 .modal-align
 {
@@ -24,6 +29,13 @@ margin-top: 30px;
 {
 	color: white;
 	font-size: 20px;
+}
+.dropdown-bg>li>a
+{
+	background-color: #fff;	
+	color:red;
+	padding: 10px;
+	background-clip: padding-box;
 }
 /*carousel part*/
 .slide-align
