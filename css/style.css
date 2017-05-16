@@ -153,13 +153,14 @@ footer
 	padding-top: 50px;
 	background-color: #6d6d6d;
 }
+.foot-align
+{
+	text-align: center;
+}
 
 footer img
-{
-  float: right;
-  width: 30px;
-  padding-right: 6px;
-  margin-right: 10px;
+{  
+  width: 20px;  
 }
 footer h3
 {
@@ -175,6 +176,16 @@ footer ul
 .list-decoration li
 {
 	list-style-type:  none;
+	position: relative;
+}
+.list-decoration li:before
+{
+	content: "\>";
+	font-style: "bold";
+}
+.list-decoration li:first-child:before
+{
+	content: " ";
 }
 
 /*index1.html part*/
